@@ -131,7 +131,7 @@ AWS_HEADERS = {
 SFTP_STORAGE_HOST = 'hostname'
 SFTP_STORAGE_ROOT = '/opt/static_root/'
 
-k = paramiko.RSAKey.from_private_key_file("/home/aleks/.ssh/your-key.pem")
+k = paramiko.RSAKey.from_private_key_file("/home/user/.ssh/your-key.pem")
 SFTP_STORAGE_PARAMS = {
     "username": "ubuntu",
     'pkey': k,
