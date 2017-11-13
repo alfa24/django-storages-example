@@ -113,6 +113,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+# test
 
 # django-storages
 AWS_STORAGE_BUCKET_NAME = 'bucket_name'
